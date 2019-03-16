@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "/Volumes/Storage/goinfre/amelikia/Day03/projetD03/Assembly-CSharp-Editor.csproj",
+  "TargetFramework": "v4.7.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
