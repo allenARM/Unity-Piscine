@@ -6,6 +6,7 @@ public class Sonic : MonoBehaviour
 	[HideInInspector]public int			rings;
 	public float		speedFactor;
 	[HideInInspector]public float		speed;
+	[HideInInspector] public int Score;
 	public float		maxSpeed;
 	public float		jumpHeight;
 	public float		rollingBoost;
