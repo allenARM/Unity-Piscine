@@ -156,6 +156,7 @@ MonoBehaviour:
   direction: 0
   cc: {fileID: 0}
   my: {fileID: 0}
+  audioController: {fileID: 2168797119541107836}
 --- !u!114 &2168797119541107836
 MonoBehaviour:
   m_ObjectHideFlags: 0

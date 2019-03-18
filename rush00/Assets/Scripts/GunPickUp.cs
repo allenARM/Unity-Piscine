@@ -12,6 +12,7 @@ public class GunPickUp : MonoBehaviour
 	{
 		if (Input.GetKeyDown("e") && _playerManager.HasGun == false)
 		{
+			_playerManager.audioController.playSound("pickup");
 			_playerManager.HasGun = true;
 			_playerManager.Gun.GetComponent<SpriteRenderer>().sprite = GunImage;
 			_playerManager.Gun.SetActive(true);

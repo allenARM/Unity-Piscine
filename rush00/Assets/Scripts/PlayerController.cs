@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D body;
 	private GameObject tmp;
 	private Animator animator;
+	public PlayerAudioController audioController;
     void Start()	{ }
     void Awake()
     {
@@ -68,6 +69,7 @@ public class PlayerController : MonoBehaviour
 	{
 		if (Input.GetMouseButtonDown(1) && HasGun)
 		{
+			audioController.playSound("drop");
 			GunManager gm = Gun.GetComponent<GunManager>();
 			HasGun = false;
 			Gun.SetActive(false);

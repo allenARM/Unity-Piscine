@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+using UnityEngine.SceneManagement;
 public class EndMenu : MonoBehaviour
 {
     public GameObject Menu;
@@ -9,5 +10,7 @@ public class EndMenu : MonoBehaviour
 	public void EnableMenu()
 	{
 		Menu.SetActive(true);
+		if (Input.GetKey("r"))
+			SceneManager.LoadScene(1);
 	}
 }
