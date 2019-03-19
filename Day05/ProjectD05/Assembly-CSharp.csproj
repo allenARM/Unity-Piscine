@@ -61,8 +61,12 @@
      <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+     <Compile Include="Assets\Scripts\Counter.cs" />
      <Compile Include="Assets\Scripts\FlyCamera.cs" />
+     <Compile Include="Assets\Scripts\FollowGolf.cs" />
+     <Compile Include="Assets\Scripts\MoveBollTo.cs" />
      <Compile Include="Assets\Scripts\RotateBall.cs" />
+     <Compile Include="Assets\Scripts\SliderNum.cs" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/limbo/Desktop/Unity-Piscine/Day05/ProjectD05/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
