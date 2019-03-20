@@ -8,6 +8,7 @@ public class GunManager : MonoBehaviour
 	public int NumOfBullets = 1000;
 	public Text text;
 	public AudioSource sound;
+	public Image crosshair;
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -20,8 +21,17 @@ public class GunManager : MonoBehaviour
 				NumOfBullets--;
 				text.text = NumOfBullets.ToString();
 				if (hit.collider.CompareTag("Enemy") || hit.collider.CompareTag("Player"))
+				{
 					hit.collider.GetComponent<NumberOfHp>().HP -= 10;
+					StartCoroutine(makeRed());
+				}
 			}
 		}
     }
+	IEnumerator makeRed()
+	{
+		crosshair.color = Color.red;
+		yield return new WaitForSeconds(0.3f);
+		crosshair.color = Color.white;
+	}
 }

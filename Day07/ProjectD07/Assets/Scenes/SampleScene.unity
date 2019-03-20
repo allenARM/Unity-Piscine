@@ -264,11 +264,21 @@ PrefabInstance:
       propertyPath: text
       value: 
       objectReference: {fileID: 1167059792}
+    - target: {fileID: 7384247809279436142, guid: fc011a8852be2f64cb7c1d9af1e02554,
+        type: 3}
+      propertyPath: crosshair
+      value: 
+      objectReference: {fileID: 200975463}
     - target: {fileID: 8319525362866199964, guid: fc011a8852be2f64cb7c1d9af1e02554,
         type: 3}
       propertyPath: text
       value: 
       objectReference: {fileID: 1662181896}
+    - target: {fileID: 8319525362866199964, guid: fc011a8852be2f64cb7c1d9af1e02554,
+        type: 3}
+      propertyPath: HP
+      value: 280
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc011a8852be2f64cb7c1d9af1e02554, type: 3}
 --- !u!1 &200975461
