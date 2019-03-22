@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\limbo\\Desktop\\Unity-Piscine\\Day09\\Assembly-CSharp.csproj",
+  "TargetFramework": "v4.7.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
