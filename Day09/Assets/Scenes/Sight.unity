@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.496413, b: 0.5748175, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
@@ -171,33 +171,37 @@ PrefabInstance:
       propertyPath: m_TargetTexture
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2022770, guid: 9816babbe95e8481f9046dc372d80745, type: 3}
+      propertyPath: m_projectionMatrixMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 459506, guid: 9816babbe95e8481f9046dc372d80745, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.087726645
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 459506, guid: 9816babbe95e8481f9046dc372d80745, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.90948683
+      value: 0.49757972
       objectReference: {fileID: 0}
     - target: {fileID: 459506, guid: 9816babbe95e8481f9046dc372d80745, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.24761644
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 459506, guid: 9816babbe95e8481f9046dc372d80745, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.32221717
+      value: 0.8674182
       objectReference: {fileID: 0}
     - target: {fileID: 459506, guid: 9816babbe95e8481f9046dc372d80745, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 59.053734
+      value: 24.203876
       objectReference: {fileID: 0}
     - target: {fileID: 459506, guid: 9816babbe95e8481f9046dc372d80745, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -112.66373
+      value: -104.12416
       objectReference: {fileID: 0}
     - target: {fileID: 459506, guid: 9816babbe95e8481f9046dc372d80745, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -31.6423
+      value: -16.937191
       objectReference: {fileID: 0}
     - target: {fileID: 2076702, guid: 9816babbe95e8481f9046dc372d80745, type: 3}
       propertyPath: m_projectionMatrixMode
@@ -206,6 +210,14 @@ PrefabInstance:
     - target: {fileID: 2076702, guid: 9816babbe95e8481f9046dc372d80745, type: 3}
       propertyPath: m_TargetTexture
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 402228, guid: 9816babbe95e8481f9046dc372d80745, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 402228, guid: 9816babbe95e8481f9046dc372d80745, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9816babbe95e8481f9046dc372d80745, type: 3}
@@ -318,7 +330,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 3251767438557510417, guid: a39d36f3c13ac5c41bdb0c884f59bf72, type: 3}
-  spawnTime: 5
+  boss: {fileID: 7138532446236059392, guid: 13521a232184b485eb8dc93d3556ddbd, type: 3}
+  spawnTime: 1
   spawnPoints:
   - {fileID: 1023478343}
   - {fileID: 2015147940}
@@ -6523,6 +6536,7 @@ MonoBehaviour:
   _ps: {fileID: 1103431263}
   SparkPS: {fileID: 311702964}
   dangerZone: {fileID: 991456465}
+  shotsound: {fileID: 1729747204}
 --- !u!82 &1729747204
 AudioSource:
   m_ObjectHideFlags: 0

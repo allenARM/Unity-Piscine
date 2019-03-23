@@ -8,6 +8,7 @@ public class GunS : MonoBehaviour
 	public ParticleSystem _ps;
 	public ParticleSystem SparkPS;
 	public GameObject dangerZone;
+	public AudioSource shotsound;
     // Update is called once per frame
     void Update()
     {
@@ -21,6 +22,7 @@ public class GunS : MonoBehaviour
     }
 	void Shoot()
 	{
+		shotsound.Play();
 		GetComponent<AudioSource>().Play();
 		RaycastHit hit;
 		if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit))
